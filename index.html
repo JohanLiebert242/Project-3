@@ -1,22 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 3</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project 3</title>
 
-    <!-- Reset Css -->
-        <link rel="stylesheet" href="./assets/css/reset.css">
+        <!-- Reset Css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- Embed fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@400;600&family=Sora:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- Style Css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+        <!-- Style Css -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body style="height: 10000px">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <!-- Logo -->
+                    <div class="header__img">
+                        <a href="#"
+                            ><img
+                                src="./assets/img/header.img/logo.svg"
+                                alt=""
+                                class="logo"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="./assets/img/header.img/logo-2.svg"
+                                alt=""
+                                class="logo"
+                        /></a>
+                    </div>
+    
+                    <!-- Navbar -->
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li>
+                                <a href="#!">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!">Services</a>
+                            </li>
+                            <li>
+                                <a href="#!">About</a>
+                            </li>
+                            <li>
+                                <a href="#!">Doctors</a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <!-- Cta group -->
+                    <div class="cta-group">
+                        <span class="cta-group__log-in">Log In</span>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero__body">
+                    <!-- Section 1 -->
+                    <section class="info-block">
+                        <h1>Exceptional dental care for all ages.</h1>
+                        <p class="desc">Exceptional dental care for all ages. Your great smile begins with a great dentist.</p>
+                        <div class="hero__cta-group">
+                            <button class="btn">Book Online</button>
+                            <span>or call (123) 456-7890</span>
+                        </div>
+                    </section>
+
+                    <!-- Section 2 -->
+                    <section class="img-block">
+                        <img class="hero__thumb" src="./assets/img/hero.img/hero-1.jpg" alt="img" />
+                        <img class="hero__thumb" src="./assets/img/hero.img/hero-2.jpg" alt="img" />
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
