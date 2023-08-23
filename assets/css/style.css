@@ -28,6 +28,14 @@ body {
     line-height: 1.2;
     letter-spacing: -1px;
 }
+
+.desc {
+    color: #C9D2DA;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
 .desc .lv1 {
     color: #A9B3BB;
     font-family: Open Sans;
@@ -38,7 +46,6 @@ body {
 
 .desc.lv2 {
     color: #575F66;
-    text-align: center;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.75;
@@ -51,7 +58,11 @@ body {
     background: var(--primary-color);
     border: none;
     text-align: center;
-    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 a {
@@ -61,7 +72,10 @@ a {
 
 /* ======== Header ========= */
 .header {
+    position: sticky;
+    top: -28px;
     background: #10375C;
+    padding: 8px 0;
 }
 
 .header__body {
@@ -73,7 +87,6 @@ a {
 
 .nav__list {
     display: flex;
-    position: relative;
     margin: 0 222px 0 318px;
 }
 
@@ -83,14 +96,32 @@ a {
     font-weight: 400;
     line-height: 1.75;
     margin-left: -42px;
+    position: relative;
+}
+
+.nav__list li:nth-child(1) a::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: -10px;
+    bottom: 7px;
 }
 
 .nav__list li a {
     margin: 0 21px;
 }
 
+.nav__list li a:hover,
+.cta-group__log-in:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #fff
+}
+
 .nav__list li a,
-.cta-group__log-in {
+.cta-group__log-in a{
     color: #C9D2DA;
     font-size: 1.6rem;
     font-weight: 300;
@@ -140,10 +171,6 @@ a {
 }
 
 .hero .info-block .desc {
-    color: #C9D2DA;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67;
     margin: 22px 0 38px;
 }
 
@@ -180,7 +207,158 @@ a {
 
 .hero__cta-group span {
     margin-left: 38px;
+    cursor: pointer;
 }
+
+/* ======== Services ========= */
+.services {
+    padding: 170px 0;
+}
+
+.services__head {
+    text-align: center;
+}
+
+.services__head .desc{
+    margin: 0 auto;
+    width: 468px;
+    color: #575F66;
+}
+
+.services-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.services-body .img-block__thumb{
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.services-body .info-block {
+    width: 40.2%;
+    margin: 35px 0;
+}
+
+.services-body .info-block__content {
+    display: flex;
+    padding: 21px 18px 20px 22px;
+}
+
+.services-body .info-block__content:hover {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services-body .info-block__thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ebcc08;
+}
+
+.small-services {
+    margin-left: 19px;
+}
+
+.small-services h3 {
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.385;
+}
+
+.services-body .services__btn {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67;
+    margin-top: 50px;
+}
+
+/* ======== Guides ========= */
+.guides {
+    padding: 100px 0;
+    background: #F6FBFF;
+}
+
+.guides__head .desc {
+    width: 468px;
+    color: #575F66;
+    margin-top: 18px;
+}
+
+.guides__body .media-block{
+    margin-top: 70px;
+}
+
+.guides__body .media-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guides .media-block__content {
+    width: 338px;
+    height: 370px;
+    background: #FFF;
+    padding: 42px;
+    box-shadow: 0px 0px 0px 16px #EAF6FF;
+}
+
+.guides .media-block__content:hover {
+    box-shadow: 0px 0px 0px 16px var(--primary-color);
+    -webkit-box-shadow: 0px 0px 0px 16px var(--primary-color);
+    -moz-box-shadow: 0px 0px 0px 16px var(--primary-color);
+    margin-top: 16px;
+}
+
+.guides .media-block__content:hover a {
+    color: #2E80CE;
+    font-weight: 400;
+}
+
+.guides .media-block__content h3 {
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.385;
+}
+
+.guides .media-block__content .desc {
+    margin: 28px 0 18px;
+}
+
+/* ======== Features ========= */
+.features__body {
+    display: flex;
+    padding: 170px 0;
+}
+
+.features__body .img-block {
+    display: flex;
+}
+
+.features__body .img-block__first {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.features__body .img-block__second {
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    z-index: 1;
+    /* margin-left: -20px; */
+}
+
+
+
+
 
 
 
