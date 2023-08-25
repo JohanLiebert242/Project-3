@@ -8,6 +8,25 @@
         <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
         <!-- Embed fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +39,7 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
-    <body style="height: 10000px">
+    <body>
         <!-- Header -->
         <header class="header">
             <div class="container">
@@ -45,16 +64,16 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li>
-                                <a href="#!">Home</a>
+                                <a href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#!">Services</a>
+                                <a href="#services">Services</a>
                             </li>
                             <li>
-                                <a href="#!">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#!">Doctors</a>
+                                <a href="#doctors">Doctors</a>
                             </li>
                         </ul>
                     </nav>
@@ -105,7 +124,7 @@
         </div>
 
         <!-- Services -->
-        <div class="services">
+        <div id="services" class="services">
             <div class="container">
                 <div class="services__head">
                     <h2 class="heading">Our services</h2>
@@ -179,7 +198,7 @@
         </div>
 
         <!-- Guides -->
-        <div class="guides">
+        <div id="about" class="guides">
             <div class="container">
                 <div class="guides__head">
                     <h2 class="heading">How it works</h2>
@@ -269,15 +288,344 @@
         </div>
 
         <!-- Members -->
-        <div class="members">
+        <div id="doctors" class="members">
             <div class="container">
-                <div class="members__head">
-                    <h2 class="heading">Our virtual dentist</h2>
-                    <button class="btn desc">Meet our dentist</button>
+                <div class="members-content">
+                    <div class="members__head">
+                        <h2 class="heading">Our virtual dentist</h2>
+                        <button class="btn desc">Meet our dentist</button>
+                    </div>
+    
+                    <div class="members__body">
+                        <!-- Members 1 -->
+                        <div class="members__body__content">
+                            <div class="img-block">
+                                <a href="#!">
+                                    <img
+                                        class="img-block__img"
+                                        src="./assets/img/members.img/members-1.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="info-block">
+                                <h3><a href="#!">Dr. Essence Page</a></h3>
+                                <p class="desc">
+                                    DDS, California - Linda University
+                                </p>
+                            </div>
+                        </div>
+    
+                        <!-- Members 2 -->
+                        <div class="members__body__content">
+                            <div class="img-block">
+                                <a href="#!">
+                                    <img
+                                        class="img-block__img"
+                                        src="./assets/img/members.img/members-2.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="info-block">
+                                <h3><a href="#!">Dr. Essence Page</a></h3>
+                                <p class="desc">
+                                    DDS, California - Linda University
+                                </p>
+                            </div>
+                        </div>
+    
+                        <!-- Members 3 -->
+                        <div class="members__body__content">
+                            <div class="img-block">
+                                <a href="#!">
+                                    <img
+                                        class="img-block__img"
+                                        src="./assets/img/members.img/members-3.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="info-block">
+                                <h3><a href="#!">Dr. Essence Page</a></h3>
+                                <p class="desc">
+                                    DDS, California - Linda University
+                                </p>
+                            </div>
+                        </div>
+    
+                        <!-- Members 4 -->
+                        <div class="members__body__content">
+                            <div class="img-block">
+                                <a href="#!">
+                                    <img
+                                        class="img-block__img"
+                                        src="./assets/img/members.img/members-4.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="info-block">
+                                <h3><a href="#!">Dr. Essence Page</a></h3>
+                                <p class="desc">
+                                    DDS, California - Linda University
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="chevron">
+                        <div class="left-chevron">
+                            <img
+                                src="./assets/img/members.img/left-chevron.svg"
+                                alt="left-chevron"
+                            />
+                        </div>
+    
+                        <div class="right-chevron">
+                            <img
+                                src="./assets/img/members.img/right-chevron.svg"
+                                alt="right-chevron"
+                            />
+                        </div>
+                    </div>
                 </div>
-
-                .members__body>.members__body__content>img+
             </div>
         </div>
+
+        <!-- Install -->
+        <div class="install">
+            <div class="container">
+                <div class="install-body">
+                    <img
+                        src="./assets/img/install.img/phone.svg"
+                        alt="img"
+                        class="phone"
+                    />
+
+                    <div class="install-info">
+                        <h2 class="heading">
+                            Take back your smile with dentures
+                        </h2>
+                        <p class="desc">
+                            If you’re missing multiple teeth due to decay,
+                            injury, or the natural aging process, dentures might
+                            be the perfect solution.
+                        </p>
+
+                        <div class="apps">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/install.img/Google Play outline badge.svg"
+                                    alt="google-play"
+                                    class="icons"
+                            /></a>
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/install.img/App Store outline badge.svg"
+                                    alt="app-store"
+                                    class="icons"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News -->
+        <div class="news">
+            <div class="container">
+                <div class="news__body">
+                    <div class="news__info-block">
+                        <h2 class="heading">Read Latest News & Events.</h2>
+                        <p class="desc"><a href="#!">Read All Blog</a></p>
+                        <div class="chevron">
+                            <div class="left-chevron">
+                                <img
+                                    src="./assets/img/members.img/left-chevron.svg"
+                                    alt="left-chevron"
+                                />
+                            </div>
+
+                            <div class="right-chevron">
+                                <img
+                                    src="./assets/img/members.img/right-chevron.svg"
+                                    alt="right-chevron"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news_content-block">
+                        <div class="news__media-block">
+                            <a href="#!">
+                                <img
+                                    class="news__media-block__img"
+                                    src="./assets/img/news.img/news-1.jpg"
+                                    alt=""
+                                />
+                            </a>
+
+                            <h3 class="desc lv2">
+                                <a href="#!"
+                                    >Key Considerations for Regulatory
+                                    Compliant</a
+                                >
+                            </h3>
+                            <p class="desc lv1">
+                                It’s easy to think about medical care from a
+                                narrow perspective. You go to the hospital.
+                            </p>
+                            <a class="learn-more" href="">Learn More</a>
+                        </div>
+
+                        <div class="news__media-block">
+                            <a href="#!">
+                                <img
+                                    class="news__media-block__img"
+                                    src="./assets/img/news.img/news-2.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3 class="desc lv2">
+                                <a href="#!"
+                                    >What Is Population Health Management?</a
+                                >
+                            </h3>
+                            <p class="desc lv1">
+                                It’s easy to think about medical care from a
+                                narrow perspective. You go to the hospital.
+                            </p>
+                            <a class="learn-more" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appointment -->
+        <div class="appointment">
+            <div class="container">
+                <div class="appointment__body">
+                    <h2 class="heading">Always welcoming new patients</h2>
+                    <p class="desc lv2">
+                        Take control of your dental health and get the
+                        personalized care you deserve. Call (541) 772-8846 to
+                        schedule
+                    </p>
+                    <button class="btn desc">Appointment</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content-block">
+                    <div class="footer__contact-block">
+                        <!-- Info-1 -->
+                        <ul class="footer__content-block--info">
+                            <li>
+                                <img
+                                    src="./assets/img/footer.img/logo.svg"
+                                    alt="logo-img"
+                                    class="logo"
+                                />
+                                <img
+                                    src="./assets/img/footer.img/logo-2.svg"
+                                    alt="logo-img"
+                                    class="logo"
+                                />
+                                <p class="desc">
+                                    Exceptional dental care for all ages. Your
+                                    great smile begins with a great dentist.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <!-- Info-2 -->
+                        <ul class="footer__content-block--info">
+                            <li>
+                                <a class="first" href="#!">Support</a>
+                            </li>
+                            <li>
+                                <a href="#!">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#!">Account information</a>
+                            </li>
+                            <li>
+                                <a href="#!">About</a>
+                            </li>
+                            <li>
+                                <a href="#!">Contact us</a>
+                            </li>
+                        </ul>
+
+                        <!-- Info-3 -->
+                        <ul class="footer__content-block--info">
+                            <li>
+                                <a class="first" href="#!">FAQ's</a>
+                            </li>       
+                            <li>
+                                    <a href="#!">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                    <a href="#!">Privacy Policy</a>
+                            </li>
+                        </ul>
+
+                        <!-- Info-4 -->
+                        <ul class="footer__content-block--info">
+                            <li>
+                                <a class="first" href="#!">Stay in touch</a>
+                            </li>
+
+                            <li>
+                                    <a href="#!">
+                                        <img
+                                            class="icons"
+                                            src="./assets/img/footer.img/fb.svg"
+                                            alt="fb-icon"
+                                        />
+                                    </a>
+                            
+                        
+                                    <a href="#!">
+                                        <img
+                                            class="icons"
+                                            src="./assets/img/footer.img/twitter.svg"
+                                            alt="tw-icons"
+                                        />
+                                    </a>
+                        
+                                    <a hredf="#!">
+                                        <img
+                                            class="icons"
+                                            src="./assets/img/footer.img/linked.svg"
+                                            alt="linked-icons"
+                                        />
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="#!">Subscribe</a>
+                            </li>
+                            <p class="desc lv1">Subscribe our newsletter for the latest update of Dental care</p>
+                            <div class="cta-email">
+                                <p class="cta-info">Enter your email...</p>
+                                <button class="btn">Subscribe</button>
+                            </div>
+
+                        </ul>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="copyright">2021 GDN. Copyright and All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
