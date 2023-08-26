@@ -63,17 +63,17 @@
                     <!-- Navbar -->
                     <nav class="nav">
                         <ul class="nav__list">
-                            <li>
-                                <a href="#">Home</a>
+                            <li class="nav__items">
+                                <a class="nav__link nav__link--active" href="#">Home</a>
                             </li>
-                            <li>
-                                <a href="#services">Services</a>
+                            <li class="nav__items">
+                                <a class="nav__link" href="#services">Services</a>
                             </li>
-                            <li>
-                                <a href="#about">About</a>
+                            <li class="nav__items">
+                                <a class="nav__link" href="#about">About</a>
                             </li>
-                            <li>
-                                <a href="#doctors">Doctors</a>
+                            <li class="nav__items">
+                                <a class="nav__link" href="#doctors">Doctors</a>
                             </li>
                         </ul>
                     </nav>
@@ -123,322 +123,259 @@
             </div>
         </div>
 
-        <!-- Services -->
-        <div id="services" class="services">
-            <div class="container">
-                <div class="services__head">
-                    <h2 class="heading">Our services</h2>
-                    <p class="desc">
-                        Exceptional dental care for all ages. Your great smile
-                        begins with a great dentist.
-                    </p>
-                </div>
 
-                <div class="services-body">
-                    <!-- Section 1 -->
-                    <section class="img-block">
-                        <img
-                            class="img-block__thumb"
-                            src="./assets/img/services.img/service-2.jpg"
-                            alt="img"
-                        />
-                    </section>
-
-                    <!-- Section 2 -->
-                    <section class="info-block">
-                        <div class="info-block__content">
-                            <img
-                                class="info-block__thumb"
-                                src="./assets/img/services.img/grand-piano.png"
-                                alt="icon"
-                            />
-                            <div class="small-services">
-                                <h3>Oral Surgery</h3>
-                                <p class="desc lv2">
-                                    Everything you expect and then some.
-                                    Cleanings, fillings, and x-rays.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="info-block__content">
-                            <img
-                                class="info-block__thumb"
-                                src="./assets/img/services.img/guitar.png"
-                                alt="icon"
-                            />
-                            <div class="small-services">
-                                <h3>Wisdom Teeth Removal</h3>
-                                <p class="desc lv2">
-                                    Everything you expect and then some.
-                                    Cleanings, fillings, and x-rays.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="info-block__content">
-                            <img
-                                class="info-block__thumb"
-                                src="./assets/img/services.img/love.png"
-                                alt="icon"
-                            />
-                            <div class="small-services">
-                                <h3>Preventative Dentistry</h3>
-                                <p class="desc lv2">
-                                    Everything you expect and then some.
-                                    Cleanings, fillings, and x-rays.
-                                </p>
-                            </div>
-                        </div>
-
-                        <button class="btn services__btn">All services</button>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-        <!-- Guides -->
-        <div id="about" class="guides">
-            <div class="container">
-                <div class="guides__head">
-                    <h2 class="heading">How it works</h2>
-                    <p class="desc">
-                        Exceptional dental care for all ages. Your great smile
-                        begins with a great dentist.
-                    </p>
-                </div>
-
-                <div class="guides__body">
-                    <div class="media-block">
-                        <!-- Media-block-1 -->
-                        <div class="media-block__content">
-                            <img
-                                src="./assets/img/guides.img/guides-1.svg"
-                                alt="img"
-                            />
-                            <h3>Search doctor</h3>
-                            <p class="desc lv2">
-                                Search a doctor by education, qualifications or
-                                experience-contact for inquiry.
-                            </p>
-                            <a class="desc lv2" href="#!">Learn More</a>
-                        </div>
-
-                        <!-- Media-block-2 -->
-                        <div class="media-block__content">
-                            <img
-                                src="./assets/img/guides.img/guides-2.svg"
-                                alt="img"
-                            />
-                            <h3>Find best doctor</h3>
-                            <p class="desc lv2">
-                                Search a doctor by education, qualifications or
-                                experience-contact for inquiry.
-                            </p>
-                            <a class="desc lv2" href="#!">Learn More</a>
-                        </div>
-
-                        <!-- Media-block-3 -->
-                        <div class="media-block__content">
-                            <img
-                                src="./assets/img/guides.img/guides-3.svg"
-                                alt="img"
-                            />
-                            <h3>Get treatment</h3>
-                            <p class="desc lv2">
-                                Search a doctor by education, qualifications or
-                                experience-contact for inquiry.
-                            </p>
-                            <a class="desc lv2" href="#!">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Features -->
-        <div class="features">
-            <div class="container">
-                <div class="features__body">
-                    <div class="img-block">
-                        <img
-                            class="img-block__first"
-                            src="./assets/img/features.img/features-1.jpg"
-                            alt="img"
-                        />
-                        <img
-                            class="img-block__second"
-                            src="./assets/img/features.img/832862.png"
-                            alt="img"
-                        />
-                    </div>
-                    <div class="info-block">
-                        <h2 class="heading">
-                            Take back your smile with shine.
-                        </h2>
+        <main>
+            <!-- Services -->
+            <div id="services" class="services">
+                <div class="container">
+                    <div class="services__head">
+                        <h2 class="heading">Our services</h2>
                         <p class="desc">
-                            If you’re missing multiple teeth due to decay,
-                            injury, or the natural aging process, dentures might
-                            be the perfect solution.
+                            Exceptional dental care for all ages. Your great smile
+                            begins with a great dentist.
                         </p>
-                        <button class="btn desc">Learn More</button>
+                    </div>
+    
+                    <div class="services-body">
+                        <!-- Section 1 -->
+                        <section class="img-block">
+                            <img
+                                class="img-block__thumb"
+                                src="./assets/img/services.img/service-2.jpg"
+                                alt="img"
+                            />
+                        </section>
+    
+                        <!-- Section 2 -->
+                        <section class="info-block">
+                            <div class="info-block__content">
+                                <img
+                                    class="info-block__thumb"
+                                    src="./assets/img/services.img/grand-piano.png"
+                                    alt="icon"
+                                />
+                                <div class="small-services">
+                                    <h3>Oral Surgery</h3>
+                                    <p class="desc lv2">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="info-block__content">
+                                <img
+                                    class="info-block__thumb"
+                                    src="./assets/img/services.img/guitar.png"
+                                    alt="icon"
+                                />
+                                <div class="small-services">
+                                    <h3>Wisdom Teeth Removal</h3>
+                                    <p class="desc lv2">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="info-block__content">
+                                <img
+                                    class="info-block__thumb"
+                                    src="./assets/img/services.img/love.png"
+                                    alt="icon"
+                                />
+                                <div class="small-services">
+                                    <h3>Preventative Dentistry</h3>
+                                    <p class="desc lv2">
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <button class="btn services__btn">All services</button>
+                        </section>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Members -->
-        <div id="doctors" class="members">
-            <div class="container">
-                <div class="members-content">
-                    <div class="members__head">
-                        <h2 class="heading">Our virtual dentist</h2>
-                        <button class="btn desc">Meet our dentist</button>
-                    </div>
     
-                    <div class="members__body">
-                        <!-- Members 1 -->
-                        <div class="members__body__content">
-                            <div class="img-block">
-                                <a href="#!">
-                                    <img
-                                        class="img-block__img"
-                                        src="./assets/img/members.img/members-1.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </div>
-                            <div class="info-block">
-                                <h3><a href="#!">Dr. Essence Page</a></h3>
-                                <p class="desc">
-                                    DDS, California - Linda University
-                                </p>
-                            </div>
-                        </div>
-    
-                        <!-- Members 2 -->
-                        <div class="members__body__content">
-                            <div class="img-block">
-                                <a href="#!">
-                                    <img
-                                        class="img-block__img"
-                                        src="./assets/img/members.img/members-2.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </div>
-                            <div class="info-block">
-                                <h3><a href="#!">Dr. Essence Page</a></h3>
-                                <p class="desc">
-                                    DDS, California - Linda University
-                                </p>
-                            </div>
-                        </div>
-    
-                        <!-- Members 3 -->
-                        <div class="members__body__content">
-                            <div class="img-block">
-                                <a href="#!">
-                                    <img
-                                        class="img-block__img"
-                                        src="./assets/img/members.img/members-3.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </div>
-                            <div class="info-block">
-                                <h3><a href="#!">Dr. Essence Page</a></h3>
-                                <p class="desc">
-                                    DDS, California - Linda University
-                                </p>
-                            </div>
-                        </div>
-    
-                        <!-- Members 4 -->
-                        <div class="members__body__content">
-                            <div class="img-block">
-                                <a href="#!">
-                                    <img
-                                        class="img-block__img"
-                                        src="./assets/img/members.img/members-4.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </div>
-                            <div class="info-block">
-                                <h3><a href="#!">Dr. Essence Page</a></h3>
-                                <p class="desc">
-                                    DDS, California - Linda University
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="chevron">
-                        <div class="left-chevron">
-                            <img
-                                src="./assets/img/members.img/left-chevron.svg"
-                                alt="left-chevron"
-                            />
-                        </div>
-    
-                        <div class="right-chevron">
-                            <img
-                                src="./assets/img/members.img/right-chevron.svg"
-                                alt="right-chevron"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Install -->
-        <div class="install">
-            <div class="container">
-                <div class="install-body">
-                    <img
-                        src="./assets/img/install.img/phone.svg"
-                        alt="img"
-                        class="phone"
-                    />
-
-                    <div class="install-info">
-                        <h2 class="heading">
-                            Take back your smile with dentures
-                        </h2>
+            <!-- Guides -->
+            <div id="about" class="guides">
+                <div class="container">
+                    <div class="guides__head">
+                        <h2 class="heading">How it works</h2>
                         <p class="desc">
-                            If you’re missing multiple teeth due to decay,
-                            injury, or the natural aging process, dentures might
-                            be the perfect solution.
+                            Exceptional dental care for all ages. Your great smile
+                            begins with a great dentist.
                         </p>
-
-                        <div class="apps">
-                            <a href="#!"
-                                ><img
-                                    src="./assets/img/install.img/Google Play outline badge.svg"
-                                    alt="google-play"
-                                    class="icons"
-                            /></a>
-                            <a href="#!"
-                                ><img
-                                    src="./assets/img/install.img/App Store outline badge.svg"
-                                    alt="app-store"
-                                    class="icons"
-                            /></a>
+                    </div>
+    
+                    <div class="guides__body">
+                        <div class="media-block">
+                            <!-- Media-block-1 -->
+                            <div class="media-block__content">
+                                <img
+                                    src="./assets/img/guides.img/guides-1.svg"
+                                    alt="img"
+                                />
+                                <h3>Search doctor</h3>
+                                <p class="desc lv2">
+                                    Search a doctor by education, qualifications or
+                                    experience-contact for inquiry.
+                                </p>
+                                <a class="desc lv2" href="#!">Learn More</a>
+                            </div>
+    
+                            <!-- Media-block-2 -->
+                            <div class="media-block__content">
+                                <img
+                                    src="./assets/img/guides.img/guides-2.svg"
+                                    alt="img"
+                                />
+                                <h3>Find best doctor</h3>
+                                <p class="desc lv2">
+                                    Search a doctor by education, qualifications or
+                                    experience-contact for inquiry.
+                                </p>
+                                <a class="desc lv2" href="#!">Learn More</a>
+                            </div>
+    
+                            <!-- Media-block-3 -->
+                            <div class="media-block__content">
+                                <img
+                                    src="./assets/img/guides.img/guides-3.svg"
+                                    alt="img"
+                                />
+                                <h3>Get treatment</h3>
+                                <p class="desc lv2">
+                                    Search a doctor by education, qualifications or
+                                    experience-contact for inquiry.
+                                </p>
+                                <a class="desc lv2" href="#!">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- News -->
-        <div class="news">
-            <div class="container">
-                <div class="news__body">
-                    <div class="news__info-block">
-                        <h2 class="heading">Read Latest News & Events.</h2>
-                        <p class="desc"><a href="#!">Read All Blog</a></p>
+    
+            <!-- Features -->
+            <div class="features">
+                <div class="container">
+                    <div class="features__body">
+                        <div class="img-block">
+                            <img
+                                class="img-block__first"
+                                src="./assets/img/features.img/features-1.jpg"
+                                alt="img"
+                            />
+                            <img
+                                class="img-block__second"
+                                src="./assets/img/features.img/832862.png"
+                                alt="img"
+                            />
+                        </div>
+                        <div class="info-block">
+                            <h2 class="heading">
+                                Take back your smile with shine.
+                            </h2>
+                            <p class="desc">
+                                If you’re missing multiple teeth due to decay,
+                                injury, or the natural aging process, dentures might
+                                be the perfect solution.
+                            </p>
+                            <button class="btn desc">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Members -->
+            <div id="doctors" class="members">
+                <div class="container">
+                    <div class="members-content">
+                        <div class="members__head">
+                            <h2 class="heading">Our virtual dentist</h2>
+                            <button class="btn desc">Meet our dentist</button>
+                        </div>
+        
+                        <div class="members__body">
+                            <!-- Members 1 -->
+                            <div class="members__body__content">
+                                <div class="img-block">
+                                    <a href="#!">
+                                        <img
+                                            class="img-block__img"
+                                            src="./assets/img/members.img/members-1.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="info-block">
+                                    <h3><a href="#!">Dr. Essence Page</a></h3>
+                                    <p class="desc">
+                                        DDS, California - Linda University
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- Members 2 -->
+                            <div class="members__body__content">
+                                <div class="img-block">
+                                    <a href="#!">
+                                        <img
+                                            class="img-block__img"
+                                            src="./assets/img/members.img/members-2.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="info-block">
+                                    <h3><a href="#!">Dr. Essence Page</a></h3>
+                                    <p class="desc">
+                                        DDS, California - Linda University
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- Members 3 -->
+                            <div class="members__body__content">
+                                <div class="img-block">
+                                    <a href="#!">
+                                        <img
+                                            class="img-block__img"
+                                            src="./assets/img/members.img/members-3.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="info-block">
+                                    <h3><a href="#!">Dr. Essence Page</a></h3>
+                                    <p class="desc">
+                                        DDS, California - Linda University
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- Members 4 -->
+                            <div class="members__body__content">
+                                <div class="img-block">
+                                    <a href="#!">
+                                        <img
+                                            class="img-block__img"
+                                            src="./assets/img/members.img/members-4.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="info-block">
+                                    <h3><a href="#!">Dr. Essence Page</a></h3>
+                                    <p class="desc">
+                                        DDS, California - Linda University
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
                         <div class="chevron">
                             <div class="left-chevron">
                                 <img
@@ -446,7 +383,7 @@
                                     alt="left-chevron"
                                 />
                             </div>
-
+        
                             <div class="right-chevron">
                                 <img
                                     src="./assets/img/members.img/right-chevron.svg"
@@ -455,68 +392,134 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="news_content-block">
-                        <div class="news__media-block">
-                            <a href="#!">
-                                <img
-                                    class="news__media-block__img"
-                                    src="./assets/img/news.img/news-1.jpg"
-                                    alt=""
-                                />
-                            </a>
-
-                            <h3 class="desc lv2">
-                                <a href="#!"
-                                    >Key Considerations for Regulatory
-                                    Compliant</a
-                                >
-                            </h3>
-                            <p class="desc lv1">
-                                It’s easy to think about medical care from a
-                                narrow perspective. You go to the hospital.
+                </div>
+            </div>
+    
+            <!-- Install -->
+            <div class="install">
+                <div class="container">
+                    <div class="install-body">
+                        <img
+                            src="./assets/img/install.img/phone.svg"
+                            alt="img"
+                            class="phone"
+                        />
+    
+                        <div class="install-info">
+                            <h2 class="heading">
+                                Take back your smile with dentures
+                            </h2>
+                            <p class="desc">
+                                If you’re missing multiple teeth due to decay,
+                                injury, or the natural aging process, dentures might
+                                be the perfect solution.
                             </p>
-                            <a class="learn-more" href="">Learn More</a>
-                        </div>
-
-                        <div class="news__media-block">
-                            <a href="#!">
-                                <img
-                                    class="news__media-block__img"
-                                    src="./assets/img/news.img/news-2.png"
-                                    alt=""
-                                />
-                            </a>
-                            <h3 class="desc lv2">
+    
+                            <div class="apps">
                                 <a href="#!"
-                                    >What Is Population Health Management?</a
-                                >
-                            </h3>
-                            <p class="desc lv1">
-                                It’s easy to think about medical care from a
-                                narrow perspective. You go to the hospital.
-                            </p>
-                            <a class="learn-more" href="">Learn More</a>
+                                    ><img
+                                        src="./assets/img/install.img/Google Play outline badge.svg"
+                                        alt="google-play"
+                                        class="icons"
+                                /></a>
+                                <a href="#!"
+                                    ><img
+                                        src="./assets/img/install.img/App Store outline badge.svg"
+                                        alt="app-store"
+                                        class="icons"
+                                /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Appointment -->
-        <div class="appointment">
-            <div class="container">
-                <div class="appointment__body">
-                    <h2 class="heading">Always welcoming new patients</h2>
-                    <p class="desc lv2">
-                        Take control of your dental health and get the
-                        personalized care you deserve. Call (541) 772-8846 to
-                        schedule
-                    </p>
-                    <button class="btn desc">Appointment</button>
+    
+            <!-- News -->
+            <div class="news">
+                <div class="container">
+                    <div class="news__body">
+                        <div class="news__info-block">
+                            <h2 class="heading">Read Latest News & Events.</h2>
+                            <p class="desc"><a href="#!">Read All Blog</a></p>
+                            <div class="chevron">
+                                <div class="left-chevron">
+                                    <img
+                                        src="./assets/img/members.img/left-chevron.svg"
+                                        alt="left-chevron"
+                                    />
+                                </div>
+    
+                                <div class="right-chevron">
+                                    <img
+                                        src="./assets/img/members.img/right-chevron.svg"
+                                        alt="right-chevron"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="news_content-block">
+                            <div class="news__media-block">
+                                <a href="#!">
+                                    <img
+                                        class="news__media-block__img"
+                                        src="./assets/img/news.img/news-1.jpg"
+                                        alt=""
+                                    />
+                                </a>
+    
+                                <h3 class="desc lv2">
+                                    <a href="#!"
+                                        >Key Considerations for Regulatory
+                                        Compliant</a
+                                    >
+                                </h3>
+                                <p class="desc lv1">
+                                    It’s easy to think about medical care from a
+                                    narrow perspective. You go to the hospital.
+                                </p>
+                                <a class="learn-more" href="">Learn More</a>
+                            </div>
+    
+                            <div class="news__media-block">
+                                <a href="#!">
+                                    <img
+                                        class="news__media-block__img"
+                                        src="./assets/img/news.img/news-2.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3 class="desc lv2">
+                                    <a href="#!"
+                                        >What Is Population Health Management?</a
+                                    >
+                                </h3>
+                                <p class="desc lv1">
+                                    It’s easy to think about medical care from a
+                                    narrow perspective. You go to the hospital.
+                                </p>
+                                <a class="learn-more" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+    
+            <!-- Appointment -->
+            <div class="appointment">
+                <div class="container">
+                    <div class="appointment__body">
+                        <h2 class="heading">Always welcoming new patients</h2>
+                        <p class="desc lv2">
+                            Take control of your dental health and get the
+                            personalized care you deserve. Call (541) 772-8846 to
+                            schedule
+                        </p>
+                        <button class="btn desc">Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <!-- Footer -->
         <div class="footer">
